@@ -1,0 +1,22 @@
+@keyframes rotate {
+	to {
+		transform: rotate(360deg);}}
+body {
+height: 100vh;
+margin: 0;
+background: linear-gradient(190deg,skyblue,rgb(166, 121, 190),rgb(93, 26, 108));
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Dancing Script', cursive;
+}	
+svg {
+	width: 35vw;
+	height: 35vw;
+	animation: rotate linear 10s infinite;}
+svg text {
+font-size: 18px;
+letter-spacing: 2px;
+font-weight: bold;
+fill: rgb(206, 153, 203);
+text-shadow: 2px 2px 1px rgb(128, 0, 90);}
